@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+button:hover {
+    background-color: #d32f2f;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    font-size: 14px;
+    padding: 8px;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.box {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#urlInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b71c1c;
+}
